@@ -1,11 +1,10 @@
 import React from 'react';
 
-function SupportPage() {
+function ProductPage() {
     return ( 
         <>
-        
         </>
      );
 }
 
-export default SupportPage;
+export default ProductPage;
