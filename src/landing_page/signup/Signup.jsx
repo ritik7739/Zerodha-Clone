@@ -1,15 +1,12 @@
 import React, { useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
 
 function Signup() {
-  const navigate = useNavigate();
-
   useEffect(() => {
-    // Redirect to the route where the signup page is hosted within the React app
-    navigate('/signup-external'); // Adjust the route as needed
-  }, [navigate]);
+    // Redirect to an external URL
+    window.location.href = 'https://zerodha-signup.onrender.com/login'; // Adjust the URL as needed
+  }, []);
 
-  return <h1>Wait,Redirecting to Signup...</h1>;
+  return <h1>Wait, redirecting to Signup...</h1>;
 }
 
 export default Signup;
