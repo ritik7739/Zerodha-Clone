@@ -56,7 +56,7 @@ The project is organized into various components, each responsible for different
   - Redirects users to an external signup page, simulating the account creation process on Zerodha.
 
 
-# Dashboard Application
+# Dashboard
 
 This is a web-based dashboard application developed using React.js, TailwindCSS, and the MERN stack. The application provides users with a comprehensive view of their stocks, funds, orders, holdings, and more. Below is a detailed overview of the application and the components used.
 
